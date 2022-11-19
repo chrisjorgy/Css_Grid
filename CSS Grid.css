@@ -1,0 +1,103 @@
+
+body {
+    background-image: url(https://i.stack.imgur.com/jGlzr.png);
+  }
+  
+  .projects-grid {
+    width: 100%;
+    font-size: 55px;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-gap: 20px 20px;
+    justify-content: space-evenly;
+    }
+  .d1 {
+    background: lightsalmon;
+    height: 6em;
+    background-image: url(https://codepen.io/chrisjorgy/pen/poPKyXa/image/large.png);
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    transition: background-image 0.5s;
+    }
+  
+  .d2 {
+    background: lightblue;
+    background-image: url(https://codepen.io/chrisjorgy/pen/GRmGddX/image/large.png);
+    background-size: cover;
+    background-position: center;
+    height: 6em;
+    cursor: pointer;
+  }
+  .d3 {
+    background: lightgreen;
+    background-image: url(https://codepen.io/chrisjorgy/pen/YzVjmYQ/image/large.png);
+    background-size: cover;
+    background-position: center;
+    height: 6em;
+    cursor: pointer;
+  }
+  .d4 {
+    background: yellow;
+    background-image: url(https://codepen.io/chrisjorgy/pen/JjNeNGX/image/large.png);
+    background-size: cover;
+    background-position: center;
+    height: 6em;
+    cursor: pointer;
+  }
+  .d5 {
+    background: lightpink;
+    height: 6em;
+    background-image: url(https://codepen.io/chrisjorgy/pen/oNWKeoY/image/large.png);
+    background-size:cover;
+    background-position: center;
+    opacity: 0.8;
+    cursor: pointer;
+  }
+  .d6 {
+    background: teal;
+    heaight:6em;
+    text-align: center;
+    opacity: 0.2;
+    cursor: pointer;
+  }
+  .d7 {
+    background: red;
+    height: 6em;
+    text-align: center;
+    opacity: 0.2;
+    cursor: pointer;
+  }
+  .d8 {
+    background: purple;
+    text-align: center;
+    height: 6em;
+    opacity: 0.2;
+    cursor: pointer;
+  }
+  .d1:hover {
+    transform: scale(1.1);
+  }
+  .d2:hover {
+    transform: scale(1.1);
+  }
+  .d3:hover {
+    transform: scale(1.1);
+  }
+  .d4:hover {
+    transform: scale(1.1);
+    
+  }
+  .d5:hover {
+    transform: scale(1.1);
+  }
+  .d6:hover {
+    transform: scale(1.1);
+  }
+  .d7:hover {
+    transform: scale(1.1);
+  }
+  .d8:hover {
+    transform: scale(1.1);
+  }
+  
